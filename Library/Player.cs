@@ -18,7 +18,7 @@ public class Player
     private string _Adresse;
     private string ? _Telefonnummer;
     private string _PLZ;
-    private int ? _RückenNummer;
+    private string ? _RückenNummer;
     private static int nächsteSpielerID = 1;
 
     public int SpielerID{get;}
@@ -26,7 +26,7 @@ public class Player
     {   
         _Vorname = Vorname;
         _Nachname = Nachname;
-        SpielerID = nächsteSpielerID+1;
+        SpielerID = nächsteSpielerID++;
     }
 
     public string Adresse {get;
@@ -59,14 +59,17 @@ public class Player
             _PLZ = value;
         }
     }
-    public int Rückennummer {get;
+    public string Rückennummer {get;
         set
         {
-            if (value == null)
+            if (value == "")
             {
                 Console.WriteLine($"Player {_Nachname} doenst have a Playernumber yet");
             }
-            Rückennummer = value;
+            else
+            {
+            _RückenNummer = value;
+            }
         }
     }
 

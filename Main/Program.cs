@@ -16,7 +16,7 @@ public class Programtest1
         Player player_1 = new Player("Alexander", "Preinsberger");
         player_1.Adresse = "Musterstraße 123";
         player_1.PLZ = "8224";
-        player_1.Rückennummer = 10;
+        player_1.Rückennummer = "10";
         player_1.Telefonnummer = "+43 664 12345678";
 
         Player player_2 = new Player("Nikolai", "Andrejek");
