@@ -1,0 +1,6 @@
+SpielerID  Vorname        Nachname         Rückennummer   PLZ     Adresse
+
+1          Alexander      Preinsberger     10             8224    Musterstraße 123
+
+2          Nikolai        Andrejek         11             8243    Musterstraße 321
+
