@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z31Uy0gLFiw=",
+  "dgSpecHash": "R8KPOFm3gAU=",
   "success": true,
-  "projectFilePath": "c:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erikw\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\erikw\\.nuget\\packages\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",

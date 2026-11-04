@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\Tests.csproj": {}
+    "C:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\Tests.csproj": {
+    "C:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\Tests.csproj",
+        "projectUniqueName": "C:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "c:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\Tests.csproj",
+        "projectPath": "C:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\erikw\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erikw\\AppData\\Roaming\\NuGet\\NuGet.Config"

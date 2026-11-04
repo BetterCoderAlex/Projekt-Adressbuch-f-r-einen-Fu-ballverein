@@ -1,0 +1,9 @@
+// ========================================================
+// Projekt:      Adressbuch für den Fußballverein Weiz
+// Datei:        Dateiname
+// Beschreibung: Verwaltet Kunden und deren Daten.
+// Autor:    	 Name
+// Erstellt:     21.10.2026
+// 
+// History: 	 21.10.2026 Name Implementierung/Bugfix/...
+// =========================================================
