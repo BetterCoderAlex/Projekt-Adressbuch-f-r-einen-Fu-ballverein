@@ -6,6 +6,7 @@
 // Erstellt:     04.11.2026
 // 
 // History: 	 04.11.2026 Testing Player Base
+// History:      11.11.2026 Testing the Sponsors Base
 // =========================================================
 using Library;
 using System.IO;
@@ -15,7 +16,11 @@ public class Programtest1
 {
     public static int Main(string[] args)
     {
+        // path to where the information gets saved
         string path_p = "../Vereinskontakte/Players.txt";
+        string path_s = "../Vereinskontakte/Sponsors.txt";
+
+        // Player are created here
         Player player_1 = new Player("Alexander", "Preinsberger");
         player_1.Adresse = "Musterstraße 123";
         player_1.PLZ = "8224";
@@ -28,9 +33,13 @@ public class Programtest1
         player_2.Rückennummer = "11";
         player_2.Telefonnummer = "+43 664 21345678";
 
-        List<Player> players = new List<Player>();
+        List<Player> players = new();
         players.Add(player_1);
         players.Add(player_2);
+
+        Sponsors Knapp = new Sponsors("Knapp", "kin.office@knapp.com");
+
+        List<Sponsors> sponsors = new();
 
         var text = new StringBuilder();
 

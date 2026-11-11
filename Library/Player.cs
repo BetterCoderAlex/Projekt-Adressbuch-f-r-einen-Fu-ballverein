@@ -13,58 +13,58 @@ namespace Library;
 
 public class Player
 {
-    private string _Vorname;
-    private string _Nachname;
-    private string ? _Adresse;
-    private string ? _Telefonnummer;
+    private string _vorname;
+    private string _nachname;
+    private string ? _adresse;
+    private string ? _telefonnummer;
     private string ? _PLZ;
-    private string ? _RückenNummer;
+    private string ? _rückennummer;
     private static int nächsteSpielerID = 1;
 
     public int SpielerID{get;}
     public Player(string Vorname, string Nachname)
     {   
-        _Vorname = Vorname;
-        _Nachname = Nachname;
+        _vorname = Vorname;
+        _nachname = Nachname;
         SpielerID = nächsteSpielerID++;
     }
 
     public string GetVorname()
     {
-        return this._Vorname;
+        return this._vorname;
     }
     public string GetNachname()
     {
-        return this._Nachname;
+        return this._nachname;
     }
 
     public string ? Adresse {
         get
         {
-            if (_Adresse == null)
+            if (_adresse == null)
             {
                 throw new NullReferenceException("Adress mustn`t be null");
             }
-            return _Adresse;
+            return _adresse;
         }
         set
         {
-            _Adresse = value;
+            _adresse = value;
         }
     }
     public string ? Telefonnummer
     {
         get
         {
-            if (_Telefonnummer == null)
+            if (_telefonnummer == null)
             {
-                Console.WriteLine($"Player {_Nachname} doesnt have a Phonenumber");
+                Console.WriteLine($"Player {_nachname} doesnt have a Phonenumber");
             }
-            return _Telefonnummer;
+            return _telefonnummer;
         }
         set
         {
-            _Telefonnummer = value;  
+            _telefonnummer = value;  
         }
     }
     public string PLZ
@@ -87,15 +87,15 @@ public class Player
     {
         get
         {
-            if (_RückenNummer == null)
+            if (_rückennummer == null)
             {
-                Console.WriteLine($"Player {_Nachname} doenst have a Playernumber yet");
+                Console.WriteLine($"Player {_nachname} doenst have a Playernumber yet");
             }
-            return _RückenNummer;
+            return _rückennummer;
         }
         set
         {
-            _RückenNummer = value;
+            _rückennummer = value;
         }
     }
 
