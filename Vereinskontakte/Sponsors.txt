@@ -1,0 +1,6 @@
+SponsorID  Firmenname     Firmenemail      Firmenadresse       FirmenPLZ
+
+1          Knapp          kin.office@knapp.comGünter-Knapp-Straße 5-7Günter-Knapp-Straße 5-7
+
+1          Reifeisen      direct@raiffeisen.chStadtpark 9         Stadtpark 9
+

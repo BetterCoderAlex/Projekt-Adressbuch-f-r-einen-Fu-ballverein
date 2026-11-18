@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UOsbrHZXQqE=",
+  "dgSpecHash": "/FkKPvT9gpU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\erikw\\OneDrive - HTL Weiz\\Desktop\\ITP2 Flotte Flitzer GmbH\\Back_FrontEND\\C#_Blazor\\Projekt-Adressbuch-f-r-einen-Fu-ballverein\\Library\\Library.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/alex/School/3AHIT/ITP Praxis/Projekt-Adressbuch-f-r-einen-Fu-ballverein/Library/Library.csproj",
+  "expectedPackageFiles": [
+    "/home/alex/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.13/microsoft.aspnetcore.app.ref.10.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
