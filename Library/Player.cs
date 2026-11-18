@@ -1,5 +1,4 @@
-﻿
-// ========================================================
+﻿// ========================================================
 // Projekt:      Adressbuch für den Fußballverein Weiz
 // Datei:        Player.cs
 // Beschreibung: Verwaltet Daten von Spielern

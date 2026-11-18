@@ -5,12 +5,11 @@
 // Autor:    	 BetterCoderAlex
 // Erstellt:     04.11.2026
 // 
-// History: 	 04.11.2026 Testing Player Base
-// History:      11.11.2026 Testing the Sponsors Base
-// History:      18.11.2026 Testing the File Writing
+// History: 	 04.11.2026 Testing Player Base (BCA)
+// History:      11.11.2026 Testing the Sponsors Base (BCA)
+// History:      18.11.2026 Testing the File Writing (BCA)
 // =========================================================
 using Library;
-using System.IO;
 using System.Text;
 
 public class Programtest1
@@ -20,6 +19,7 @@ public class Programtest1
         // path to where the information gets saved
         string path_p = "../Vereinskontakte/Players.txt";
         string path_s = "../Vereinskontakte/Sponsors.txt";
+        string path_t = "../Vereinskontakte/Trainer.txt";
 
         // Player are created here
         Player player_1 = new Player("Alexander", "Preinsberger");
@@ -49,6 +49,18 @@ public class Programtest1
         List<Sponsors> sponsors = new();
         sponsors.Add(Knapp);
         sponsors.Add(Reifeisen);
+
+        Trainer trainer_1 = new Trainer("Adolf", "Brückler");
+        trainer_1.Adresse = "Straße Muster 91375";
+        trainer_1.PLZ = "8364";
+        trainer_1.Telefonnummer = "+43 664 7654312";
+        
+        Trainer trainer_2 = new Trainer("Eva", "Teichtal");
+        trainer_2.Adresse = "Baumweg 12";
+        trainer_2.PLZ = "1982";
+        trainer_2.Email = "eva.teichtal@example.com";
+
+        var text_t = new StringBuilder();
 
         var text_s = new StringBuilder();
 

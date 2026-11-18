@@ -5,5 +5,5 @@
 // Autor:    	 Name
 // Erstellt:     21.10.2026
 // 
-// History: 	 21.10.2026 Name Implementierung/Bugfix/...
+// History: 	 21.10.2026 Name Implementierung/Bugfix/... (Kürzel der Person)
 // =========================================================
